@@ -1,28 +1,38 @@
-# WebProfile
+# Seu Nome - Portfólio Web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Bem-vindo ao meu portfólio web! Este repositório contém o código-fonte do meu site de portfólio pessoal, onde compartilho informações sobre mim, meu trabalho e minhas habilidades como desenvolvedor front-end.
 
-## Development server
+## Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Página Inicial (About)**: Uma breve introdução sobre mim, minha experiência e minha paixão pelo desenvolvimento web.
+- **Habilidades (Ability)**: Uma lista das linguagens, tecnologias e ferramentas que estou aprendendo.
+- **Portfólio (Portfolio)**: Uma coleção dos meus projetos anteriores, incluindo descrições e links para visualizá-los.
+- **Contato (Contact)**: Como entrar em contato comigo, seja para colaborações, perguntas ou apenas para bater um papo.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: A estrutura principal do site.
+- Outras tecnologias: HTML, CSS, TypeScript, Git, etc.
 
-## Build
+## Como Executar o Projeto Localmente
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório: `git clone https://github.com/seu-usuario/seu-repo.git`
+2. Navegue até a pasta do projeto: `cd seu-repo`
+3. Instale as dependências: `npm install`
+4. Inicie o servidor de desenvolvimento: `ng serve`
+5. Acesse o site em seu navegador: `http://localhost:4200`
 
-## Running unit tests
+## Contribuições
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sinta-se à vontade para abrir problemas (issues) e enviar pull requests se desejar contribuir para este projeto. Feedback e melhorias são sempre bem-vindos.
 
-## Running end-to-end tests
+## Contato
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Website: [Seu Site Pessoal](https://angular-portfolio-cyan.vercel.app)
+- LinkedIn: [Seu Perfil no LinkedIn](https://www.linkedin.com/in/yuri-moreira/)
+- Email: yuri.moreira803@gmail.com
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# angular_portfolio
+Obrigado por visitar meu repositório. Espero que você aproveite a visita!
+
