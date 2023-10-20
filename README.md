@@ -1,4 +1,4 @@
-# Seu Nome - Portfólio Web
+# Yuri Moreira - Portfólio Web
 
 Bem-vindo ao meu portfólio web! Este repositório contém o código-fonte do meu site de portfólio pessoal, onde compartilho informações sobre mim, meu trabalho e minhas habilidades como desenvolvedor front-end.
 
