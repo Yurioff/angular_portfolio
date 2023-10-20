@@ -45,7 +45,7 @@
 
 .typescript{transition-duration: 2s;}
 .typescript:hover{
-    box-shadow: 0px 0px 55px 0px #E34C2680;
+    box-shadow: 0px 0px 55px 0px #007ACC80;
     transition: 0.8s;
 }
 

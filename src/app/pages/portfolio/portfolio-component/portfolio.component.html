@@ -1,1 +1,33 @@
-<p>portfolio works!</p>
+<div class="container">
+    <div class="content">
+        <div class="boxTitle">
+            <h1>Projetos</h1>
+        </div>
+        <div class="content_boxCard">
+
+            <app-card 
+                cardTitle="Profile Header Maker"
+                linkProject="https://angular-profile-header-maker.vercel.app"
+                previewProject="assets/images/portfolio/profile_header-maker.png"
+                cardDescription=" Este projeto permite que você personalize facilmente um banner para adicionar ao seu README."
+                [techItems]="['HTML','CSS','TypeScript','scss']"
+            ></app-card>
+
+            <app-card
+                cardTitle="Pokedex"
+                linkProject="https://js-developer-pokedex-virid-three.vercel.app"
+                previewProject="assets/images/portfolio/pokedex.png"
+                cardDescription="O objetivo deste projeto é criar uma aplicação web que exibe uma lista de Pokémon e suas informações detalhadas em um modal quando clicados."
+                [techItems]="['javaScript','CSS','html']"
+            ></app-card>
+
+            <app-card
+                cardTitle="portfolio Web"
+                linkProject="https://angular-portfolio-cyan.vercel.app"
+                previewProject="assets/images/portfolio/portfolio_web.png"
+                cardDescription="Meu portfólio web, construído com Angular, apresenta meus projetos e habilidades em desenvolvimento. Explore meu trabalho e entre em contato para colaborações. "
+                [techItems]="['HTML','CSS','TypeScript','Angular']"
+            ></app-card>
+        </div>
+    </div>
+</div>

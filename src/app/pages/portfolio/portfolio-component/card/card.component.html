@@ -1,1 +1,22 @@
-<p>card works!</p>
+<div class="container">
+    <div class="content">
+        <div class="cardBox">
+            <div class="cardTitle">
+                <h1>{{ cardTitle }}</h1>
+            </div>
+            <div class="cardPhoto">
+                <a [href]="linkProject" target="_blank">
+                    <img [src]="previewProject" alt="prévia do projeto" srcset="">
+                </a>
+            </div>
+            <div class="cardDescription">
+                <p>{{ cardDescription }}</p>
+            </div>
+            <div class="cardTech">
+                <ul>
+                    <li *ngFor="let item of techItems" >{{ item }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

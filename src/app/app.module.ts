@@ -11,6 +11,7 @@ import { ContactModule } from './pages/contact/contact.module';
 import { MenuComponent } from './shared/menu/menu.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
