@@ -1,0 +1,14 @@
+.container{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+app-about-info, app-about-img{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,82 @@
+.content{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content >h1, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content > h1 {
+    font-size: 70px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.content > p {
+    font-size: 30px;
+    color: rgba(255, 165, 0, 0.50);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.btn-icon > button {
+    margin-right: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-download{
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px;
+    color:rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 50px;
+}
+
+/* btn Linkedin */
+.btn-linkedin > svg{
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.btn-linkedin > svg:hover {
+    fill:rgba(0, 123, 181, 1);
+    transition: 0.8s;
+}
+
+/* btn Github */
+.btn-github > svg {
+    fill:rgba(0, 0, 0, 0.5);
+}
+.btn-github > svg:hover {
+    fill:#171515;
+    transition: 0.8s;
+}
+
+/* btn donwload */
+.btn-download:hover{
+    color:rgba(255, 165, 0, 0.50);
+    transition: 0.8s;
+}
+
+@media screen and (max-width:767px){
+    .content{
+        margin-left: 50px;
+    }
+}

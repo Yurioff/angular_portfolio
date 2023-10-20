@@ -1,0 +1,104 @@
+.menu-content{
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-content > a  {
+    display: none;
+}
+
+.link-list {
+    display: flex;
+}
+
+.link-list > li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.link-list > li > a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+
+.link-list > li > a:hover{
+    transition: 0.3s;
+    color: rgba(255, 166, 0, 0.755);
+}
+
+
+
+
+
+/* Desktop */
+
+@media screen and (min-width:1024px){
+
+    .menu-content{
+        width: 90%;
+        height: 60px;
+
+        justify-content: space-between;
+    }
+    
+    .menu-content > a {
+        display: inline;
+        margin-left: 30px;
+        background-color: none;
+    }
+    
+    .link-list {
+        display: flex;
+        margin-right: 30px;
+    }
+    
+    .link-list > li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .link-list > li > a {
+        font-size: 18px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .menu-content{
+        height: 70px;
+        justify-content: space-between;
+    }
+    
+    .menu-content > a {
+        display: inline;
+        margin-left: 30px;
+        background-color: none;
+    }
+    
+    .link-list {
+        display: flex;
+        margin-right: 30px;
+    }
+    
+    .link-list > li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .link-list > li > a {
+        font-size: 18px;
+    }
+
+
+}
