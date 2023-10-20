@@ -4,11 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about-component/about.component';
 import { AbilityComponent } from './pages/ability/ability-component/ability.component'
 import { PortfolioComponent } from './pages/portfolio/portfolio-component/portfolio.component';
+import { ContactComponent } from './pages/contact/contact-component/contact.component';
 
 const routes: Routes = [
   {path:'', component: AboutComponent, pathMatch: 'full'},
   {path:'ability', component: AbilityComponent, pathMatch: 'prefix'},
-  {path:'portfolio', component: PortfolioComponent, pathMatch: 'prefix' }
+  {path:'portfolio', component: PortfolioComponent, pathMatch: 'prefix'},
+  {path:'contact', component: ContactComponent, pathMatch: 'prefix'}
 ];
 
 @NgModule({

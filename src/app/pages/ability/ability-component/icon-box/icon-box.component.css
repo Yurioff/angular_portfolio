@@ -1,0 +1,80 @@
+.container{
+    margin: 20px;
+}
+
+.boxTitle > h1 {
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconBox {
+    width: 100px;
+    height: 100px;
+
+    background-color: #fff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBox > img {
+    height: 50px;
+    width: 50px;
+
+}
+.html{transition-duration: 2s;}
+.html:hover{
+    box-shadow: 0px 0px 55px 0px #E34C2680;
+    transition: 0.8s;   
+}
+
+.css{transition-duration: 2s;}
+.css:hover{
+    box-shadow: 0px 0px 55px 0px #264DE480;
+    transition: 0.8s;   
+}
+
+.javascript{transition-duration: 2s;}
+.javascript:hover{
+    box-shadow: 0px 0px 55px 0px #F0DB4F80;
+    transition: 0.8s;
+}
+
+.typescript{transition-duration: 2s;}
+.typescript:hover{
+    box-shadow: 0px 0px 55px 0px #E34C2680;
+    transition: 0.8s;
+}
+
+.figma{transition-duration: 2s;}
+.figma:hover {
+    box-shadow: 0px 0px 55px 0px #ff340180;
+    transition: 0.8s;
+}
+
+.php{transition-duration: 2s;}
+.php:hover{
+    box-shadow: 0px 0px 55px 0px #8993BE80;
+    transition: 0.8s;
+}
+
+.git{transition-duration: 2s;}
+.git:hover{
+    box-shadow: 0px 0px 55px 0px #F1502F80;
+    transition: 0.8s;
+}
+
+.gihub{transition-duration: 2s;}
+.github:hover{
+    box-shadow: 0px 0px 55px 0px #4078C080;
+    transition: 0.8s;
+}
+
+.vscode{transition-duration: 2s;}
+.vscode:hover{
+    box-shadow: 0px 0px 55px 0px #0078D780;
+    transition: 0.8s;
+}
