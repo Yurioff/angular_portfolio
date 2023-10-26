@@ -75,6 +75,15 @@
     transition: 0.8s;
 }
 
+/* btn info */
+.btn-info > svg {
+    fill: rgba(0, 0, 0, 0.5);
+}
+.btn-info > svg:hover{
+    fill:rgba(255, 165, 0, 0.50);
+    transition: 0.8s;
+}
+
 @media screen and (max-width:767px){
     .content{
         margin-left: 50px;

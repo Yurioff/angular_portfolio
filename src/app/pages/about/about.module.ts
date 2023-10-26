@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about-component/about.component';
 import { AboutInfoComponent } from './about-component/about-info/about-info.component';
 import { AboutImgComponent } from './about-component/about-img/about-img.component';
+import { AboutModalComponent } from './about-component/about-info/about-modal/about-modal.component';
 
 
 
@@ -10,7 +11,8 @@ import { AboutImgComponent } from './about-component/about-img/about-img.compone
   declarations: [
     AboutComponent,
     AboutInfoComponent,
-    AboutImgComponent
+    AboutImgComponent,
+    AboutModalComponent
   ],
   exports: [
     AboutComponent,

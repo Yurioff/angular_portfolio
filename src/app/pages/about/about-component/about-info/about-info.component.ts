@@ -6,6 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-info.component.css']
 })
 export class AboutInfoComponent {
+  showModal:boolean = false;
+
+  openModal() {
+    this.showModal = true;
+  }
+
+  fecharModal() {
+    this.showModal = false;
+  }
 
   abrirLinkedin() {
     const linkLinkedin = 'https://www.linkedin.com/in/yuri-moreira';
@@ -16,6 +25,7 @@ export class AboutInfoComponent {
     const linkGithub = 'https://www.github.com/yurioff';
     window.open(linkGithub, '_blank');
   }
+
 
   downloadCV() {
     const url = '' // assets/file/cv/yuri_moreira_curriculo.pdf
